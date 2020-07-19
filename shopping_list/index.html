@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="phone">
+        <div class="phone_header"><h1>Shopping List</h1></div>
+        <!-- ul, li를 썼어야 했다. -->
+        <ul class="phone_body">
+          <!-- <div class="phone_body"> -->
+          <!-- <div class="item">
+            <span class="item_name">name</span
+            ><button><img src="img/delete.png" alt="delete" /></button>
+          </div> -->
+          <!-- <input type="text" /> -->
+        </ul>
+        <div class="phone_footer">
+          <input class="input" type="text" onkeydown="{add_item_enter()}" />
+          <button onclick="{add_item()}">
+            <img src="img/plus.png" alt="plus" />
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
